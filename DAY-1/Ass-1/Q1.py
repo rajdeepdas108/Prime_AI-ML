@@ -1,0 +1,22 @@
+'''Q1. Write a program that asks the user for their name and age, then prints a sentence like:
+
+Code
+Hello Shradha, you are 21 years old!'''
+
+
+name=str(input("Enter your name: "))
+age=int(input("Enter your age: "))
+
+
+
+print("Hello",name+", you are",age,"years old!")
+
+#Alternative print method 
+
+print(f"Hello {name}, you are {age} years old!")    # format --> (f"whatever you want to print {variable},also use comma as you want then {variable}")
+
+
+#Alternative print method 
+
+
+print("Hello",name,", you are",age,"years old!")
